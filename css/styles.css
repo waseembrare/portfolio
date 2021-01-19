@@ -46,8 +46,12 @@ nav {
 }
 
 .social-sidebar {
+	display: flex;
+	flex-direction: column;	
+	flex-wrap: nowrap;
 	position: fixed;
 	top: 45vh;
+	right: 5px;	
 }
 
 div {
