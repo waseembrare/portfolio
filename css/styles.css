@@ -45,6 +45,11 @@ nav {
 .cta-left {
 }
 
+.social-sidebar {
+	position: fixed;
+	top: 45vh;
+}
+
 div {
 	border: 1px solid black;
 }
