@@ -21,6 +21,7 @@ nav {
 }
 
 .jumbotron {
+	margin-top: 100px;
 	height: 45vh;
 	display: flex;
 	flex-direction: column;
@@ -31,16 +32,17 @@ nav {
 }
 
 .cta {
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	/*border-top: 2px solid black;
+	border-bottom: 2px solid black;*/
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-evenly;
 	align-items: center;
-	height: 45vh;
-	margin-left: 15vw;
-	margin-right: 15vw;
+	height: 200px;
+	margin-top: 100px;
+	margin-left: 20vw;
+	margin-right: 20vw;
 }
 
 .cta-left {
@@ -67,17 +69,23 @@ nav {
 }
 
 .about {
+	height: 50vh;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
 	margin-top: 100px;
-	margin-left: 5vw;
-	margin-right: 5vw;
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+
+.about-left{
+	margin-right: 30px;	
 }
 
 .portfolio {
+	height: 50vh;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -86,6 +94,10 @@ nav {
 	margin-top: 100px;
 	margin-left: 5vw;
 	margin-right: 5vw;	
+}
+
+.portfolio-1 {
+	width: ;
 }
 
 div {
@@ -102,6 +114,7 @@ footer {
 	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
+	margin-top: 20px;
 	margin-left: 5px;
 	margin-right: 5px;
 }
