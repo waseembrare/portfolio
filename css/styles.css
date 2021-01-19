@@ -54,6 +54,16 @@ nav {
 	right: 5px;	
 }
 
+.about {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+
 div {
 	border: 1px solid black;
 }
