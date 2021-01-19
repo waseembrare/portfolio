@@ -6,7 +6,18 @@ body {
 	padding: 0;
 	margin: 0;
 	background-color: #F8F3E2;
+	font-family: sans-serif;
 }
+
+a {
+	color: #000000;
+}
+
+a:hover {
+	color: #B51515;
+}
+
+
 
 nav {
 	border-bottom: 2px solid black;
@@ -99,6 +110,7 @@ nav {
 .portfolio-1 {
 	width: ;
 }
+
 
 div {
 }
