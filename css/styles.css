@@ -19,7 +19,17 @@ a:hover {
 	color: #B51515;
 }
 
+h1 {
+	font-size: 60px;
+}
 
+h2 {
+	font-size: 60px;
+}
+
+h3 {
+	font-size: 30px;
+}
 
 nav {
 	border-bottom: 2px solid black;
@@ -31,6 +41,10 @@ nav {
 	align-items: center;
 	margin-left: 15px;
 	margin-right: 15px;
+}
+
+p>nav:hover {	
+	color: #B51515;	
 }
 
 .section-heading {
@@ -115,7 +129,7 @@ nav {
 	border-radius: 50%;
 }
 
-.portfolio {
+.folio {
 	height: 90vh;
 	display: flex;
 	flex-direction: row;
@@ -126,15 +140,8 @@ nav {
 	margin-right: 5vw;	
 }
 
-.portfolio-1 {
+.folio-1 {
 	width: ;
-}
-
-
-div {
-}
-
-section {
 }
 
 footer {
