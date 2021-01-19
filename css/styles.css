@@ -7,3 +7,19 @@ body {
 	margin: 0;
 	background-color: #F8F3E2;
 }
+
+nav {
+	border: 1px solid black;
+}
+
+div {
+	border: 1px solid black;
+}
+
+section {
+	border: 1px solid black;
+}
+
+footer {
+	border: 1px solid black;
+}
