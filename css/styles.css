@@ -20,6 +20,17 @@ nav {
 	padding-right: 5px;
 }
 
+.jumbotron {
+	border: 1px solid black;
+	height: 45vh;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 15vw;
+}
+
 div {
 	border: 1px solid black;
 }
