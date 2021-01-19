@@ -51,6 +51,12 @@ nav {
 	max-width: 180px;
 }
 
+.cta-end {
+	margin-top: 100px;
+	margin-bottom: 10px;
+	border: none;
+}
+
 .social-sidebar {
 	display: flex;
 	flex-direction: column;	
@@ -71,6 +77,16 @@ nav {
 	margin-right: 5vw;
 }
 
+.portfolio {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 100px;
+	margin-left: 5vw;
+	margin-right: 5vw;	
+}
 
 div {
 }
