@@ -95,6 +95,7 @@ h1 {
 	font-size: 95px;
   	font-family: 'Stijla', 'Baumans', cursive;
 	line-height: 0;
+	display: none;
 }
 
 h2 {
@@ -102,6 +103,7 @@ h2 {
 	font-size: 95px;
   	font-family: 'Stijla', 'Baumans', cursive;
 	line-height: 0;
+	display: none;
 /*	margin-top: 40px;
 */}
 
