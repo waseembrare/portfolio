@@ -255,10 +255,6 @@ try fixing issue of button disable when grain effect is applied
 	margin-left: 30px;	
 }
 
-.my-mugshot {
-	border-radius: 50%;
-}
-
 .folio {
 	height: 90vh;
 	display: flex;
