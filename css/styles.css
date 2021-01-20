@@ -76,10 +76,6 @@ a {
 	text-decoration: none;
 }
 
-/*a:hover {
-	color: #B51515;
-}*/
-
 i:hover {
 	color: #B51515;
 }
@@ -118,8 +114,7 @@ h2 {
   	font-family: 'Stijla', 'Baumans', cursive;
 	line-height: 0;
 	display: none;
-/*	margin-top: 40px;
-*/}
+}
 
 h3 {
 	font-size: 40px;
@@ -143,10 +138,6 @@ nav {
 	margin-right: 15px;
 }
 
-/*p>nav:hover {
-	color: #B51515;
-}*/
-
 .section-heading {
 	font-family: 'Quicksand', sans-serif;
 	border-bottom: 2px solid black;
@@ -159,8 +150,7 @@ nav {
 }
 
 .jumbotron {
-/*	height: 45vh;
-*/	display: flex;
+	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: flex-start;	
@@ -255,8 +245,7 @@ try fixing issue of button disable when grain effect is applied
 	align-items: center;
 	margin-left: 5vw;
 	margin-right: 5vw;
-/*	text-align: center;
-*/}
+}
 
 .folio-1, .folio-2, .folio-3 {
 	max-width: 25%;
