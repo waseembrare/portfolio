@@ -29,7 +29,10 @@ font-family: 'Quicksand', sans-serif;
 
 *, *::before, *::after { 
 	box-sizing: border-box;
-	font-size: 10px;
+}
+
+html {
+	font-size: 62.5%
 }
 
 body {
@@ -38,9 +41,19 @@ body {
 	background-color: #F8F3E2;
 	font-family: sans-serif;
 	font-family: 'Quicksand', sans-serif;
-	font-weight: 400;
-	font-size: 1.4rem;
+	font-weight: 400;	
 }
+
+::-moz-selection { 
+    color: #B51515;
+  background: #E3B229;
+}
+
+::selection {
+   color: #B51515;
+  background: #E3B229;
+}
+
 
 /*.background {
  	position: fixed;
@@ -75,6 +88,14 @@ body {
 a {
 	color: #000000;
 	text-decoration: none;
+}
+
+time {
+	font-size: 1.4rem;
+}
+
+i {
+	font-size: 2.4rem;
 }
 
 i:hover {
@@ -255,6 +276,7 @@ try fixing issue of button disable when grain effect is applied
 }
 
 figcaption {
+	font-size: 1.4rem;
 	font-style: italic;
 }
 
@@ -273,6 +295,5 @@ footer {
 
 .fab {
 	padding: 10px;
-	font-size: 1.8rem;
 }
 
