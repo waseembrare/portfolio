@@ -21,7 +21,7 @@
 			<div class="nav-logo">	
 				<p>waseembrare.com</p>		
 			</div>
-			<div class="nav-header">	
+			<div class="nav-header non-mobile">	
 				<p>web development</p>		
 			</div>
 			<div class="nav-year">				
@@ -32,23 +32,24 @@
 		
 		<section class="jumbotron">
 			<div>
-				<img class="site-heading text-focus-in" src="assets/site-heading.png" alt="Website title: Waseem Brare, developer" width="900">
-				<h1>waseembrare</h1>
+				<img class="site-heading" src="assets/site-heading.png" alt="Website title: Waseem Brare, developer" width="900">
+				<h1>waseem brare</h1>
 			</div>
 			<div>
-				<h2>//developer</h2>
+				<h2>developer</h2>
 			</div>
 		</section>
 		
 			
-		<section class="cta">
-			<div class="sub-cta">
-				<h3 class="cta-q">coffee<br>and<br>zoom?</h3>
-				<span><p class="cta-caption">(or tea & hangouts... #newnormal)</p></span>
+		<section class="call-to-action">
+			<div class="sub-call-to-action">
+				<h3 class="call-to-action-q">coffee</h3>
+				<h3 class="call-to-action-q">and</h3>
+				<h3 class="call-to-action-q">zoom?</h3>
 			</div>
-			<div class="main-cta">
-				<form class="grow-little">
-					<input type="image" class="cta-button" name="cta-button" src="assets/cta-button.png" alt="Button to request to have a coffee and a chat?">  
+			<div class="main-call-to-action">
+				<form class="button-animation">
+					<input type="image" class="call-to-action-button" name="call-to-action-button" src="assets/call-to-action-button.png" alt="Button to request to have a coffee and a chat?">  
 				</form>
 			</div>	
 		</section>	
@@ -57,22 +58,22 @@
 		<div class="social-sidebar">
 			<div>
 				<a href="https://github.com/waseembrare/" target="_blank" title="link to github">
-					<i class="fab fa-github grow"></i>
+					<i class="fab fa-github icon-animation"></i>
 				</a>
 			</div>
 			<div>
 				<a href="https://www.linkedin.com/in/waseembrare/" target="_blank" title="link to linked in">
-					<i class="fab fa-linkedin-in grow"></i>
+					<i class="fab fa-linkedin-in icon-animation"></i>
 				</a>
 			</div>
 			<div>
 				<a href="https://twitter.com/waseembrare/" target="_blank" title="link to twitter">
-					<i class="fab fa-twitter grow"></i>
+					<i class="fab fa-twitter icon-animation"></i>
 				</a>			
 			</div>
 			<div>
 				<a href="https://www.behance.net/waseembrare" target="_blank" title="link to behance">
-					<i class="fab fa-behance grow"></i>
+					<i class="fab fa-behance icon-animation"></i>
 				</a>				
 			</div>
 		</div>
@@ -82,10 +83,11 @@
 			<p>about</p>		
 		</div>
 		<section class="about">
-			<div class="about-left">
-				<img class="my-mugshot" src="assets/waseem-nuts-pic.jpg" alt="a photo of waseem brare" height="200" />
+			<div class="about-image">	
+				<div class="pic-border"><img class="my-mugshot" src="assets/waseem-pic.jpg" alt="a photo of waseem brare"/>
+				</div>
 			</div>
-			<div class="about-right">
+			<div class="about-description">
 				<p>The elevator pitch. Keep it short, sweet and TO THE POINT! Nobody wants your life story man, they just wanna know you can help them and are a reasonable human being</p>
 			</div>
 		</section>
@@ -97,32 +99,61 @@
 		
 		
 		<section class="folio">
-			<div class="folio-1">
-				<a href="#">
-				<img src="assets/waseem-site.jpg" alt="a screenshot of waseembrare.com">
-				</a>
-				<figcaption>Yes, it's this page! I just want you to think I make loads of sites</figcaption>
-				<div><br>
-					<p>HTML // CSS<br><br>Figma // Illustrator</p>
+			<div class="folio-container">
+				<div class="folio-content">
+					<div class="folio-image">
+						<a href="#">
+							<img src="assets/waseem-site.jpg" alt="a screenshot of waseembrare.com">
+						</a>
+					</div>
+					<div>
+						<p class="item-description">Yes, it's this page! I just want you to think I make loads of sites</p>
+						<p>HTML // CSS</p>
+						<p>Figma // Illustrator</p>
+					</div>
 				</div>	
 			</div>	
-			<div class="folio-2">
-				<a href="https://www.theelementwithin.com/" target="_blank">
-					<img src="assets/tew-site.jpg" alt="a screenshot of theelementwithin.com">
-				</a>
-				<figcaption>Rebrand and site build for an acupunturist & wellbeing coach</figcaption>
-				<div><br>
-					<p>HTML // CSS // PHP<br><br>Wordpress // Figma // Illustrator</p>
+			<div class="folio-container">
+				<div class="folio-content">
+					<div class="folio-image">
+						<a href="https://www.theelementwithin.com/" target="_blank">
+							<img src="assets/tew-site.jpg" alt="a screenshot of theelementwithin.com">
+						</a>
+					</div>
+					<div>
+						<p class="item-description">Rebrand and site build for an acupunturist & wellbeing coach</p>
+						<p>HTML // CSS // PHP</p>
+						<p>Wordpress // Figma // Illustrator</p>
+					</div>		
 				</div>		
 			</div>
-			<div class="folio-3">	
-				<a href="https://www.mickclackshop.com/" target="_blank">			
-					<img src="assets/mick-site.jpg" alt="a screenshot of mickclackshop.com">
-				</a>
-				<figcaption>Site build for a photographer including a filterable gallery and a shop</figcaption>
-				<div><br>
-					<p>HTML // CSS // PHP<br><br>Wordpress // Figma // Illustrator</p>
-				</div>				
+			<div class="folio-container">
+				<div class="folio-content">	
+					<div class="folio-image">
+						<a href="https://www.mickclackshop.com/" target="_blank">			
+							<img src="assets/mick-site.jpg" alt="a screenshot of mickclackshop.com">
+						</a>
+					</div>
+					<div>
+						<p class="item-description">Site build for a photographer including a filterable gallery and a shop</p>
+						<p>HTML // CSS // PHP</p>
+						<p>Wordpress // Figma // Illustrator</p>
+					</div>	
+				</div>			
+			</div>
+			<div class="folio-container">
+				<div class="folio-content">
+					<div class="folio-image">
+						<a href="https://d-h-s.co.uk/">
+							<img src="assets/dhs-site.jpg" alt="a screenshot of d-h-s.co.uk">
+						</a>
+					</div>
+					<div>
+						<p class="item-description">Site build and design for a facilities company</p>	
+						<p>HTML // CSS</p>
+						<p>Wordpress // Figma // Illustrator</p>
+					</div>
+				</div>	
 			</div>
 		</section>
 		
@@ -130,25 +161,23 @@
 		<div class="section-heading">
 			<p>connect</p>		
 		</div>
-		<section class="cta cta-end">
-			<div class="sub-cta">
-				<h3 class="cta-q">coffee<br>and<br>zoom?</h3>
-				<p class="cta-caption">(or tea & hangouts... #newnormal)</p>
+		<section class="call-to-action call-to-action-end">
+			<div class="sub-call-to-action">
+				<h3 class="call-to-action-q">coffee</h3>
+				<h3 class="call-to-action-q">and</h3>
+				<h3 class="call-to-action-q">zoom?</h3>
 			</div>
-			<div class="main-cta">
-				<form>
-					<input type="image" class="cta-button grow-little" name="cta-button" src="assets/cta-button.png" alt="Button to request to have a coffee and a chat?">  
+			<div class="main-call-to-action">
+				<form class="button-animation">
+					<input type="image" class="call-to-action-button" name="call-to-action-button" src="assets/call-to-action-button.png" alt="Button to request to have a coffee and a chat?">  
 				</form>
 			</div>	
-		</section>		
+		</section>	
 		
 		
 		<footer>
 			<div>
-				<p>design & code created with love & caffiene by waseembrare ©</p>
-			</div>
-			<div>
-				<p><time datetime="2021">2021</time></p>
+				<p>design & code by waseembrare ©</p>
 			</div>
 		</footer>		
 	</body>
