@@ -197,7 +197,8 @@ nav {
 }
 
 .about-image {
-	padding-right: 40px
+	padding-right: 40px;
+	padding-left: 40px;
 }
 
 .folio-container {
@@ -232,10 +233,20 @@ footer {
 }
 
 
-@media only screen and (min-width: 200px) and (max-width: 600px) {
+@media only screen and (min-width: 001px) and (max-width: 600px) {
 	
 	body {
-		background-color: blue;
+		background-color: red;
+	}
+	
+	.jumbotron {
+		margin-top: 250px;
+		margin-bottom: 250px;
+	}
+	
+	.call-to-action {
+		margin-top: 250px;
+		margin-bottom: 250px;
 	}
 	
 	.folio-container {
@@ -263,6 +274,29 @@ footer {
 		font-size: 1.2rem;
 	}
 	
+	.my-mugshot {
+		z-index: 1;
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+	}
+	
+	.about {
+		height: 700px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.about-image {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+	
 	.call-to-action-q {
 		font-size: 2.4rem;
 		
@@ -282,14 +316,24 @@ footer {
 		font-size: 1.8rem;
 	}
 	
-	.jumbotron {
-		padding-bottom: 50px;
-		padding-top: 50px;
-	}
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px){
 
+	body {
+		background-color: blue;
+	}
+	
+	.jumbotron {
+		margin-top: 250px;
+		margin-bottom: 250px;
+	}
+	
+	.call-to-action {
+		margin-top: 250px;
+		margin-bottom: 250px;
+	}
+	
 	.folio-container {
 		display: flex;
 		flex-direction: column;
@@ -301,6 +345,22 @@ footer {
 		margin-top: 100px;
 		margin-bottom: 100px;	
 		text-align: center;			
+	}
+	
+	.about {
+		height: 700px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+		align-items: center;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	
+	.about-image {
+		padding-right: 30px;
+		padding-left: 30px;
 	}
 		
 	.call-to-action-q {
@@ -316,7 +376,12 @@ footer {
 		margin-right: 25vw;
 		text-align: right;
 	}
-
+	
+	.my-mugshot {
+		z-index: 1;
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
@@ -333,7 +398,6 @@ footer {
 		margin-bottom: 100px;	
 		text-align: center;			
 	}
-
 }
 
 
