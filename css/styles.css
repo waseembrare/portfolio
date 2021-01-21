@@ -235,10 +235,6 @@ footer {
 
 @media only screen and (min-width: 001px) and (max-width: 600px) {
 	
-	body {
-		background-color: red;
-	}
-	
 	.jumbotron {
 		margin-top: 250px;
 		margin-bottom: 250px;
@@ -267,11 +263,11 @@ footer {
 	}
 	
 	p {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 	}
 	
 	time { 
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 	}
 	
 	.my-mugshot {
@@ -313,17 +309,17 @@ footer {
 	}
 	
 	i {
-		font-size: 1.8rem;
+		font-size: 2rem;
+	}
+	
+	.non-mobile {
+		display: none;
 	}
 	
 }
 
 @media only screen and (min-width: 600px) and (max-width: 992px){
 
-	body {
-		background-color: blue;
-	}
-	
 	.jumbotron {
 		margin-top: 250px;
 		margin-bottom: 250px;
@@ -382,7 +378,27 @@ footer {
 		border-radius: 50%;
 		width: 150px;
 		height: 150px;
+	}
+	
+	p {
+		font-size: 1.5rem;
+	}
+	
+	time { 
+		font-size: 1.5rem;
+	}
+	
+	.non-mobile {
+		display: none;
+	}
+	
+	i {
+		font-size: 2rem;
+	}
+
 }
+
+
 
 @media only screen and (min-width: 992px) and (max-width: 1200px){
 	
@@ -398,7 +414,9 @@ footer {
 		margin-bottom: 100px;	
 		text-align: center;			
 	}
+
 }
+
 
 
 
